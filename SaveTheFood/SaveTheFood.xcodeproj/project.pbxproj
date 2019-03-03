@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA24C0F621E8E51E00CE12DD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA24C0F521E8E51E00CE12DD /* TableViewCell.swift */; };
+		BA24C0F821E9E13100CE12DD /* placePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA24C0F721E9E13100CE12DD /* placePickerViewController.swift */; };
+		BA27B5E721E3AA3000C7C23E /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27B5E621E3AA3000C7C23E /* NewViewController.swift */; };
+		BA2AC76121E4E336008D01EA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AC76021E4E336008D01EA /* TableViewController.swift */; };
+		BA2BFA1121E4C5AB00D67A16 /* SQLiteConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BFA1021E4C5AB00D67A16 /* SQLiteConnect.swift */; };
+		BA2BFA1421E4D25700D67A16 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2BFA1321E4D25700D67A16 /* libsqlite3.tbd */; };
+		BA543F2222284AE300F37503 /* ViewController_NewName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA543F2122284AE300F37503 /* ViewController_NewName.swift */; };
+		BA543F2622284B4C00F37503 /* ViewController_NewPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA543F2522284B4C00F37503 /* ViewController_NewPlace.swift */; };
+		BA543F2822284B6400F37503 /* ViewController_NewExpDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA543F2722284B6400F37503 /* ViewController_NewExpDate.swift */; };
+		BAB7200421E3A1DF00C53FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB7200321E3A1DF00C53FB2 /* AppDelegate.swift */; };
+		BAB7200621E3A1DF00C53FB2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB7200521E3A1DF00C53FB2 /* DetailViewController.swift */; };
+		BAB7200921E3A1DF00C53FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB7200721E3A1DF00C53FB2 /* Main.storyboard */; };
+		BAB7200B21E3A1E600C53FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB7200A21E3A1E600C53FB2 /* Assets.xcassets */; };
+		BAB7200E21E3A1E600C53FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB7200C21E3A1E600C53FB2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA24C0F521E8E51E00CE12DD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BA24C0F721E9E13100CE12DD /* placePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placePickerViewController.swift; sourceTree = "<group>"; };
+		BA27B5E621E3AA3000C7C23E /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		BA2AC76021E4E336008D01EA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BA2BFA1021E4C5AB00D67A16 /* SQLiteConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteConnect.swift; sourceTree = "<group>"; };
+		BA2BFA1321E4D25700D67A16 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BA2BFA1521E4D3E500D67A16 /* TheHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheHeader.h; sourceTree = "<group>"; };
+		BA543F2122284AE300F37503 /* ViewController_NewName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_NewName.swift; sourceTree = "<group>"; };
+		BA543F2522284B4C00F37503 /* ViewController_NewPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_NewPlace.swift; sourceTree = "<group>"; };
+		BA543F2722284B6400F37503 /* ViewController_NewExpDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_NewExpDate.swift; sourceTree = "<group>"; };
+		BAB7200021E3A1DF00C53FB2 /* SaveTheFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveTheFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB7200321E3A1DF00C53FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAB7200521E3A1DF00C53FB2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BAB7200821E3A1DF00C53FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAB7200A21E3A1E600C53FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB7200D21E3A1E600C53FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAB7200F21E3A1E600C53FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB71FFD21E3A1DF00C53FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2BFA1421E4D25700D67A16 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2BFA1221E4D25700D67A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA2BFA1321E4D25700D67A16 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAB71FF721E3A1DF00C53FB2 = {
+			isa = PBXGroup;
+			children = (
+				BA2BFA1521E4D3E500D67A16 /* TheHeader.h */,
+				BAB7200221E3A1DF00C53FB2 /* SaveTheFood */,
+				BAB7200121E3A1DF00C53FB2 /* Products */,
+				BA2BFA1221E4D25700D67A16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB7200121E3A1DF00C53FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB7200021E3A1DF00C53FB2 /* SaveTheFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB7200221E3A1DF00C53FB2 /* SaveTheFood */ = {
+			isa = PBXGroup;
+			children = (
+				BAB7200321E3A1DF00C53FB2 /* AppDelegate.swift */,
+				BAB7200521E3A1DF00C53FB2 /* DetailViewController.swift */,
+				BAB7200721E3A1DF00C53FB2 /* Main.storyboard */,
+				BA24C0F721E9E13100CE12DD /* placePickerViewController.swift */,
+				BA2AC76021E4E336008D01EA /* TableViewController.swift */,
+				BA24C0F521E8E51E00CE12DD /* TableViewCell.swift */,
+				BA27B5E621E3AA3000C7C23E /* NewViewController.swift */,
+				BA2BFA1021E4C5AB00D67A16 /* SQLiteConnect.swift */,
+				BA543F2122284AE300F37503 /* ViewController_NewName.swift */,
+				BA543F2522284B4C00F37503 /* ViewController_NewPlace.swift */,
+				BA543F2722284B6400F37503 /* ViewController_NewExpDate.swift */,
+				BAB7200A21E3A1E600C53FB2 /* Assets.xcassets */,
+				BAB7200C21E3A1E600C53FB2 /* LaunchScreen.storyboard */,
+				BAB7200F21E3A1E600C53FB2 /* Info.plist */,
+			);
+			path = SaveTheFood;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB71FFF21E3A1DF00C53FB2 /* SaveTheFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB7201221E3A1E600C53FB2 /* Build configuration list for PBXNativeTarget "SaveTheFood" */;
+			buildPhases = (
+				BAB71FFC21E3A1DF00C53FB2 /* Sources */,
+				BAB71FFD21E3A1DF00C53FB2 /* Frameworks */,
+				BAB71FFE21E3A1DF00C53FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaveTheFood;
+			productName = SaveTheFood;
+			productReference = BAB7200021E3A1DF00C53FB2 /* SaveTheFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB71FF821E3A1DF00C53FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "xdobx Inc";
+				TargetAttributes = {
+					BAB71FFF21E3A1DF00C53FB2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BAB71FFB21E3A1DF00C53FB2 /* Build configuration list for PBXProject "SaveTheFood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB71FF721E3A1DF00C53FB2;
+			productRefGroup = BAB7200121E3A1DF00C53FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB71FFF21E3A1DF00C53FB2 /* SaveTheFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB71FFE21E3A1DF00C53FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB7200E21E3A1E600C53FB2 /* LaunchScreen.storyboard in Resources */,
+				BAB7200B21E3A1E600C53FB2 /* Assets.xcassets in Resources */,
+				BAB7200921E3A1DF00C53FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB71FFC21E3A1DF00C53FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA543F2222284AE300F37503 /* ViewController_NewName.swift in Sources */,
+				BA24C0F821E9E13100CE12DD /* placePickerViewController.swift in Sources */,
+				BA27B5E721E3AA3000C7C23E /* NewViewController.swift in Sources */,
+				BAB7200621E3A1DF00C53FB2 /* DetailViewController.swift in Sources */,
+				BA543F2822284B6400F37503 /* ViewController_NewExpDate.swift in Sources */,
+				BA2BFA1121E4C5AB00D67A16 /* SQLiteConnect.swift in Sources */,
+				BA543F2622284B4C00F37503 /* ViewController_NewPlace.swift in Sources */,
+				BA24C0F621E8E51E00CE12DD /* TableViewCell.swift in Sources */,
+				BA2AC76121E4E336008D01EA /* TableViewController.swift in Sources */,
+				BAB7200421E3A1DF00C53FB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAB7200721E3A1DF00C53FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB7200821E3A1DF00C53FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAB7200C21E3A1E600C53FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB7200D21E3A1E600C53FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAB7201021E3A1E600C53FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAB7201121E3A1E600C53FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAB7201321E3A1E600C53FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S4Q38QS9Z;
+				INFOPLIST_FILE = SaveTheFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdobx.SaveTheFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/Jenny/Downloads/SaveTheFood/TheHeader.h;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB7201421E3A1E600C53FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S4Q38QS9Z;
+				INFOPLIST_FILE = SaveTheFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdobx.SaveTheFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/Jenny/Downloads/SaveTheFood/TheHeader.h;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB71FFB21E3A1DF00C53FB2 /* Build configuration list for PBXProject "SaveTheFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB7201021E3A1E600C53FB2 /* Debug */,
+				BAB7201121E3A1E600C53FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB7201221E3A1E600C53FB2 /* Build configuration list for PBXNativeTarget "SaveTheFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB7201321E3A1E600C53FB2 /* Debug */,
+				BAB7201421E3A1E600C53FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAB71FF821E3A1DF00C53FB2 /* Project object */;
+}
